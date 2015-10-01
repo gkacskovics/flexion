@@ -13,7 +13,7 @@ import com.flexionmobile.codingchallenge.integration.Purchase;
 public class IntegrationImplTest {
 
 	private static final String API = "http://dev2.flexionmobile.com/javachallenge/rest";
-	private static final Developer dev = new Developer("nomatterwho_4000");
+	private static final Developer dev = new Developer("gkacskovics");
 
 	Integration integration = new IntegrationImpl(API, dev);
 
